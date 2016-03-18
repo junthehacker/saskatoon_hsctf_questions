@@ -59,7 +59,7 @@ Brute force 4 digit password, and retrive the flag from database
 ##### Question 9 - Unrestricted folder [Hard]
 Retrive data from `config/` folder
 
-##### Question 10 - Badly stored password 2 (SQL Injection, Brute force & Data Analyzation) [Hell]
+##### Question 10 - Badly stored password 2 (SQL Injection, Brute force & Data Analyzation) [Insane]
 Brute force 4 digit passowrd, and retrive the flag by analyzing similarities between hashes
 
 
