@@ -46,3 +46,18 @@ Same as question 3, but flag is encrypted using base64. Use console to solve the
 SQL Injection. Type `' OR '1'='1` for the password.
 
 It will result in a query like this `SELECT * FROM user WHERE username='xxx' AND password='' OR '1' = '1'`
+
+##### Question 6 - SQL Injection 2
+Get the flag from database
+
+##### Question 7 - XSS (Cross-Site Scripting)
+Self re-tweet script
+
+##### Question 8 - Badly stored password (SQL Injection & Brute force)
+Brute force 4 digit password, and retrive the flag from database
+
+##### Question 9 - Badly stored password 2 (SQL Injection, Brute force & Data Analyzation)
+Brute force 4 digit passowrd, and retrive the flag by analyzing similarities between hashes
+
+##### Question 10 - Unrestricted folder
+Retrive data from `config/` folder
