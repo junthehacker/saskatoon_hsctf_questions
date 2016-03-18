@@ -68,7 +68,7 @@ Brute force 4 digit passowrd, and retrive the flag by analyzing similarities bet
 Flag is available in a text file
 
 ##### Question 2 - Run [Super Easy]
-Run the code to ourput the answer
+Run the code to output the answer
 
 ##### Question 3 - Search [Easy]
 Find the flag somewhat hidden in the code
