@@ -2,7 +2,7 @@
 
 ## Web
 
-##### Question 1
+##### Question 1 - Recon
 Flag is hidden in the source
 ```html
 <button>Submit</button>
@@ -12,7 +12,7 @@ Flag is hidden in the source
 </html>
 ```
 
-##### Question 2
+##### Question 2 - Recon
 Delete `style="display:none;"`
 ```html
 <h2>Classifications</h2>
@@ -20,7 +20,7 @@ Delete `style="display:none;"`
       Several subgroups of the computer underground with different attitudes use different terms to demarcate themselves from each other, or try 
 ```
 
-##### Question 3
+##### Question 3 - Recon
 Simple question, flag is hidden in `<script>` tags
 ```html
 <script type="text/javascript">
@@ -35,14 +35,14 @@ Simple question, flag is hidden in `<script>` tags
 </script>
 ```
 
-##### Question 4
+##### Question 4 - Base64 & Console
 Same as question 3, but flag is encrypted using base64. Use console to solve the question.
 ```
 > atob("eW91ciBmbGFnIGlzIGhzY3Rme3F1ZXN0aW9uNH0=");
 < "your flag is hsctf{question4}" = $1
 ```
 
-##### Question 5
+##### Question 5 - SQL Injection
 SQL Injection. Type `' OR '1'='1` for the password.
 
 It will result in a query like this `SELECT * FROM user WHERE username='xxx' AND password='' OR '1' = '1'`
