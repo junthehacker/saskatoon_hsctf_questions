@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Free pizza round 2</title>
+    <script src="https://ssl.jackzh.com/file/js/jquery/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    <h1>Enter your coupon below to get free pizza!</h1>
+    <form>
+      <input type="text" id="coupon-field" /><br>
+      <button type="button" onclick="checkCoupon();">Submit</button>
+    </form>
+  </body>
+</html>
+<script type="text/javascript">
+  var code = atob("ZGZkOWllZmFseG96OWplbHg=");
+  function checkCoupon(){
+    if($("#coupon-field").val() == code){
+      alert(atob("eW91ciBmbGFnIGlzIGhzY3Rme3F1ZXN0aW9uNH0="));
+    } else {
+      alert("oops, try again");
+    }
+  }
+</script>

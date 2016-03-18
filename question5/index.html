@@ -1,0 +1,26 @@
+<h1>Noitcejnilqs</h1>
+<h2>Login</h2>
+<form>
+  <input type="text" id="username-field" /><br>
+  <input type="text" id="password-field" /><br>
+  <button type="button" onclick="submitLogin();">Submit</button>
+  <script src="https://ssl.jackzh.com/file/js/jquery/jquery-1.11.3.min.js"></script>
+</form>
+<script type="text/javascript">
+  function submitLogin(){
+    $.ajax({
+      url:"login.php",
+      type:"POST",
+      data:{
+        username:$("#username-field").val(),
+        password:$("#password-field").val()
+      },
+      success:function(data){
+        alert(data);
+      },
+      error:function(){
+        alert("error");
+      }
+    })
+  }
+</script>
