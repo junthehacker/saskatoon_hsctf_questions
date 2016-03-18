@@ -88,6 +88,6 @@ Multiply and add to encode/decode
 ##### Question 8 - Functions [Hard]
 Perform several functions on a code to encrypt it (eg. convert to hex, square each digit in hex, output list of hex) give functions to reverse engineer
 
-##### Question 9 -  [Hard]
+##### Question 9 - TBD [Hard]
 
-##### Question 10 - Badly stored password 2 [Insane]
+##### Question 10 - TBD [Insane]
