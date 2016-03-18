@@ -62,4 +62,32 @@ Retrive data from `config/` folder
 ##### Question 10 - Badly stored password 2 (SQL Injection, Brute force & Data Analyzation) [Insane]
 Brute force 4 digit passowrd, and retrive the flag by analyzing similarities between hashes
 
+## Reverse Engineering
 
+##### Question 1 - Open [Super Easy]
+Flag is available in a text file
+
+##### Question 2 - Run [Super Easy]
+Run the code to ourput the answer
+
+##### Question 3 - Search [Easy]
+Find the flag somewhat hidden in the code
+
+##### Question 4 - Semi-Caesar [Easy]
+Move the characters a certain amount, given in the code (eg. 12). Use a caesar cycpher to reverse a encrypted password by that much.
+
+##### Question 5 - Multiply [Easy]
+Multiply each character in a code by a certain number
+
+##### Question 6 - Floor [Medium]
+Floor Division
+
+##### Question 7 - Multiple [Medium]
+Multiply and add to encode/decode
+
+##### Question 8 - Functions [Hard]
+Perform several functions on a code to encrypt it (eg. convert to hex, square each digit in hex, output list of hex) give functions to reverse engineer
+
+##### Question 9 -  [Hard]
+
+##### Question 10 - Badly stored password 2 [Insane]
