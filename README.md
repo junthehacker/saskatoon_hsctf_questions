@@ -64,7 +64,7 @@ Brute force 4 digit passowrd, and retrive the flag by analyzing similarities bet
 
 ## Reverse Engineering
 
-##### Question 0 - Open [Super Easy] (General Question)
+##### Question 0 - Open [Super Easy] - General Question
 Flag is available in a text file.
 
 ```
