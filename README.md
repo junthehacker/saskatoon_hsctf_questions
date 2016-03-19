@@ -102,7 +102,8 @@ Move the characters a certain amount, given in the code (eg. 12). Use a caesar c
 
 This is a simple reverse engineering task
 
-```input=input()
+```
+input=input ()
 
 def password_crypter(password):
 
