@@ -75,10 +75,12 @@ entry=input()
 print(entry)
 ```
 
+Answer: hsctf{kFt6leI95Pj8OVCeHV}
+
 ##### Question 2 - Run [Super Easy]
 Run the code to output the answer.
 ```
-test
+
 
 ```
 
