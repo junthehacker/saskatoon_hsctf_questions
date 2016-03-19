@@ -64,7 +64,7 @@ Brute force 4 digit passowrd, and retrive the flag by analyzing similarities bet
 
 ## Reverse Engineering
 
-##### Question 1 - Open [Super Easy]
+##### Question 0 - Open [Super Easy] (General Question)
 Flag is available in a text file.
 
 ```
@@ -77,15 +77,23 @@ print(entry)
 
 Answer: hsctf{kFt6leI95Pj8OVCeHV}
 
-##### Question 2 - Run [Super Easy]
+##### Question 1 - Run [Super Easy]
 Run the code to output the answer.
 ```
 
 
 ```
 
-##### Question 3 - Search [Easy]
+##### Question 2 - Search [Easy]
 Find the flag somewhat hidden in the code.
+
+##### Question 3 - Print [Easy]
+Edit some code to print the output of a decryption function 
+```
+
+
+```
+
 
 ##### Question 4 - Semi-Caesar [Easy]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
