@@ -121,6 +121,23 @@ Edit some code by writing print in front of a function in order to print the out
 ##### Question 4 - Semi-Caesar [Medium]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
 
+The output from this program was hsctf{iqxxpazq}. What is the flag?
+
+```
+flag=input()
+
+encodedFlag=""
+for c in flag:
+    k=((ord(c)+12))
+    if k>122 or (k>90 and k<102):
+        k=k-26
+    encodedFlag+=chr(k)
+print("hsctf{"+encodedFlag+"}")
+```
+
+Answer: hsctf{welldone}
+
+
 ##### Question 4.5 - Make the Crossing [Medium]
 
 This is a simple reverse engineering task
