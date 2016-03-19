@@ -76,8 +76,23 @@ Find the flag somewhat hidden in the code.
 ##### Question 4 - Semi-Caesar [Easy]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
 
-##### Question 5 - Multiply [Easy]
-Multiply each character in a code by a certain number.
+##### Question 5 - Arithmetic [Easy]
+Divide each character in a code by a certain number.
+
+Problem text: Someone left their python pyscripter open, but removed the password from their password? Can you figure out what it is?
+
+The printed value was ÐæÆèÌöÊðÆÊØØÊÜè¾äÊìÊäæÂØú and the python program is altered.py
+
+'''passphrase="<redacted>"
+
+def altered(password):
+    altered_password=""
+    for character in password:
+        altered_password+=chr(ord(character)*2)
+    return altered_password
+
+print(altered(passphrase))
+'''
 
 ##### Question 6 - Floor [Medium]
 Floor Division (and analyzing the code).
