@@ -144,6 +144,7 @@ password_decrypter(input)
 
 ```
 
+Answer: hsctf{less_easy}
 
 ##### Question 4 - Semi-Caesar [Medium]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
@@ -195,8 +196,6 @@ password_crypter(input)
 
 
 ```
-
-
 
 Answer:
 hsctf{however_this_is_the_real_password}
