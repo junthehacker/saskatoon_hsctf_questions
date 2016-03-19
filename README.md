@@ -83,7 +83,7 @@ Problem text: Someone left their python pyscripter open, but removed the passwor
 
 The printed value was ÐæÆèÌöÊðÆÊØØÊÜè¾äÊìÊäæÂØú and the python program is altered.py
 
-'''passphrase="<redacted>"
+```passphrase="<redacted>"
 
 def altered(password):
     altered_password=""
@@ -92,7 +92,9 @@ def altered(password):
     return altered_password
 
 print(altered(passphrase))
-'''
+```
+
+Answer: hsctf{excellent_reversal}
 
 ##### Question 6 - Floor [Medium]
 Floor Division (and analyzing the code).
