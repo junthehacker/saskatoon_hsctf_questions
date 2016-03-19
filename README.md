@@ -66,7 +66,6 @@ Brute force 4 digit passowrd, and retrive the flag by analyzing similarities bet
 
 ##### Question 1 - Open [Super Easy]
 Flag is available in a text file.
-
 ```#the password is hsctf{kFt6leI95Pj8OVCeHV}
 
 entry=input()
