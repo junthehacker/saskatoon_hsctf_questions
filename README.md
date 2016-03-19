@@ -88,17 +88,52 @@ Run the code to output the answer.
 Find the flag somewhat hidden in the code.
 
 ##### Question 3 - Print [Easy]
-Edit some code to print the output of a decryption function 
+Edit some code by writing print in front of a function in order to print the output of a decryption function 
 ```
 
 
 ```
 
 
-##### Question 4 - Semi-Caesar [Easy]
+##### Question 4 - Semi-Caesar [Medium]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
 
-##### Question 5 - Arithmetic [Easy]
+##### Question 4.5 - Make the Crossing [Medium]
+
+This is a simple reverse engineering task
+
+```input=input()
+
+def password_crypter(password):
+
+    split_password=password.split("_")
+
+    split_password.reverse()
+
+    split_password[3]="isn't"
+    split_password[0]=split_password[0][:-1]
+    split_password.remove("hsctf{however")
+
+    split_password.reverse()
+
+    new_password=""
+
+    for i in split_password:
+        new_password=new_password+i+"_"
+    print(new_password[:-1])
+
+
+password_crypter(input)
+
+
+```
+
+
+
+Answer:
+hsctf{however_this_is_the_real_password}
+
+##### Question 5 - Arithmetic [Medium]
 Divide each character in a code by a certain number.
 
 Problem text: Someone left their python pyscripter open, but removed the password from their password? Can you figure out what it is?
