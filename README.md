@@ -232,3 +232,96 @@ Perform several functions on a code to encrypt it (eg. convert to hex, square ea
 ##### Question 9 - TBD [Hard]
 
 ##### Question 10 - TBD [Insane]
+
+
+
+## Forensics/Recon
+
+##### Question 1 -  [Super Easy]
+
+
+
+##### Question 2 -  
+
+
+
+
+##### Question 3 -
+
+
+
+##### Question 4 - 
+
+
+
+
+##### Question 5 - 
+
+
+
+##### Question 6 - 
+
+
+
+##### Question 7 -
+
+
+
+##### Question 8 -
+
+
+
+##### Question 9 - 
+
+
+
+
+##### Question 10 - 
+
+
+
+## Cryptography
+
+
+##### Question 1 -  [Super Easy]
+
+
+
+##### Question 2 -  
+
+
+
+
+##### Question 3 -
+
+
+
+##### Question 4 - 
+
+
+
+
+##### Question 5 - 
+
+
+
+##### Question 6 - 
+
+
+
+##### Question 7 -
+
+
+
+##### Question 8 -
+
+
+
+##### Question 9 - 
+
+
+
+
+##### Question 10 - 
+
+
