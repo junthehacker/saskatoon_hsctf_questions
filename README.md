@@ -245,15 +245,52 @@ Answer: hsctf{MPMU1VH1}
 
 
 ##### Question 9 - Actual Encryption [Very Hard]
-Perform an actual encryption on the data, but without salt
+Perform an actual encryption on the data, but without salt.
+
+We hacked into a database, but all the passwords don't make any sense. We have their encryption algorithm, but the data says the password is f3bf4a6112f787896be54dff9c5c637310832acd61cf3f7ca3be573e6244bf94. Can you help us figure out what the password is?
+
+Hint: Yes. We know the module does not exist. Use the internet.
+
+```
+from passlib.hash import sha256_crypt
+
+entry=input()
+
+newpassword=open("passwordstorage.txt")
+
+def passwordEncrypter(password):
+    h = sha256_crypt.encrypt(password)
+    return (newpassword==h)
+
+print(passwordChecker(entry));
+```
+
 Solution: Put the hash value into an online decrypter
 
+Answer: hsctf{uns@lted}
 
 ##### Question 10 - perform an actual encryption on the data, with salt. [Insane]
-Perform an actual encryption on the data, with salt
-Solution: I don't even know. Good luck.
+Perform an actual encryption on the data, with salt. The data is b6c56a1491a6c44fcb88a4d00e86f59b8f7c1fab6e2fdf6a1aa7e7c9dcba5409
 
+Hint: Again, we know it's the same code as the previous question with the module not existing. 
 
+Solution: Download a list of the most common passwords (the actual password is monkey) and encrypt it to test.
+
+```
+from passlib.hash import sha256_crypt
+
+entry=input()
+
+newpassword=open("passwordstorage.txt")
+
+def passwordEncrypter(password):
+    h = sha256_crypt.encrypt(password+"kj2bd28hda23")
+    return (newpassword==h)
+
+print(passwordChecker(entry));
+```
+
+Answer:hsctf{monkey}
 
 ## Forensics/Recon
 
