@@ -64,7 +64,7 @@ Brute force 4 digit passowrd, and retrive the flag by analyzing similarities bet
 
 ## Reverse Engineering
 
-##### Question 0 - Open [Super Easy] - General Question
+##### Question 1 - Open [Super Easy] - General Question
 Flag is available in a text file.
 
 ```
@@ -77,7 +77,7 @@ print(entry)
 
 Answer: hsctf{kFt6leI95Pj8OVCeHV}
 
-##### Question 1 - Run [Super Easy]
+##### Question 2 - Run [Super Easy]
 Run the code to output the answer.
 ```
 # don't overthink this problem...
@@ -107,14 +107,14 @@ password_decrypter(input)
 
 Answer: hsctf{easy}
 
-##### Question 2 - Search [Easy]
+##### Question 3 - Search [Easy]
 Find the flag somewhat hidden in the code. (I won't include the code here because it's reallllllly long.) Use the search button or just play the game.
 
 
 Answer: hsctf{circle}
 
 
-##### Question 3 - Print [Easy]
+##### Question 4 - Print [Easy]
 Edit some code by writing print in front of a function in order to print the output of a decryption function 
 ```
 # don't overthink this problem either...
@@ -146,7 +146,7 @@ password_decrypter(input)
 
 Answer: hsctf{less_easy}
 
-##### Question 4 - Semi-Caesar [Medium]
+##### Question 5 - Semi-Caesar [Medium]
 Move the characters a certain amount, given in the code (eg. 12). Use a caesar cypher to reverse a encrypted password by that much.
 
 The output from this program was hsctf{iqxxpazq}. What is the flag?
@@ -166,9 +166,11 @@ print("hsctf{"+encodedFlag+"}")
 Answer: hsctf{welldone}
 
 
-##### Question 4.5 - Make the Crossing [Medium]
+##### Question 6 - Make the Crossing [Medium]
 
-This is a simple reverse engineering task
+This is a simple reverse engineering task. 
+
+Problem Text: The output from the program was  this_isn't _the_real_password . What is the flag?
 
 ```
 input=input ()
@@ -200,7 +202,7 @@ password_crypter(input)
 Answer:
 hsctf{however_this_is_the_real_password}
 
-##### Question 5 - Arithmetic [Medium]
+##### Question 7 - Arithmetic [Medium]
 Divide each character in a code by a certain number.
 
 Problem text: Someone left their python pyscripter open, but removed the password from their password? Can you figure out what it is?
@@ -220,18 +222,36 @@ print(altered(passphrase))
 
 Answer: hsctf{excellent_reversal}
 
-##### Question 6 - Floor [Medium]
-Floor Division (and analyzing the code).
-
-##### Question 7 - Multiple [Medium]
-Multiply and add to encode/decode.
-
 ##### Question 8 - Functions [Hard]
-Perform several functions on a code to encrypt it (eg. convert to hex, square each digit in hex, output list of hex) give functions to reverse engineer.
+Perform several functions on a code to encrypt it (convert it from base 35 to decimal, take its square root)
 
-##### Question 9 - TBD [Hard]
+The stored value for this password is 1209389. What is the password?
 
-##### Question 10 - TBD [Insane]
+```
+entry=input()
+
+def passwordChecker(password):
+    i=int(password,35);
+    i=i**0.5
+    return (i==1209389)
+
+print(passwordChecker(entry));
+
+```
+
+Hint: all letters in the answer are uppercase and the answer is surrounded by hsctf{answer}
+
+Answer: hsctf{MPMU1VH1}
+
+
+##### Question 9 - Actual Encryption [Very Hard]
+Perform an actual encryption on the data, but without salt
+Solution: Put the hash value into an online decrypter
+
+
+##### Question 10 - perform an actual encryption on the data, with salt. [Insane]
+Perform an actual encryption on the data, with salt
+Solution: I don't even know. Good luck.
 
 
 
