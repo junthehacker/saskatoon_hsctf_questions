@@ -1,18 +1,22 @@
 # Saskatoon HSCTF Questions
 
-## Web
+## Web Exploit
 
-##### Question 1 - Recon [Easy]
-Flag is hidden in the source
-```html
-<button>Submit</button>
-    </form>
-    <!--Just in case... Admin password is hsctf{i_love_saskatoonhsctf}-->
-  </body>
-</html>
+##### Question 1 - Comment Fever [Very Easy]
+###### Description
+Marcus recently learned how to build websites. He knows that HTML comment cannot be seen on the page. So he decided to remind himself of his own password in the comment.
+
+His website is located at:
+```
+hsctf.wmcicompsci.ca/xxxxx
 ```
 
-##### Question 2 - Recon [Easy]
+###### Goal
+Tell Marcus it’s not secure to do that by finding the password.
+Flag for this question is the password.
+
+
+##### Question 2 - Stylish [Easy]
 Delete `style="display:none;"`
 ```html
 <h2>Classifications</h2>
