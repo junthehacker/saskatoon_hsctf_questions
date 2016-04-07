@@ -347,6 +347,20 @@ Answer:hsctf{monkey}
 ##### Question 1 -  [Super Easy]
 
 
+###### Description
+Marcus recently learned how to build websites. He knows that HTML comment cannot be seen on the page. So he decided to remind himself of his own password in the comment.
+
+His website is located at:
+```
+hsctf.wmcicompsci.ca/xxxxx
+```
+
+###### Goal
+Tell Marcus it’s not secure to do that by finding the password.
+Flag for this question is the password.
+
+
+
 
 ##### Question 2 -  
 
