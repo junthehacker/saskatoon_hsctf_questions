@@ -3,6 +3,7 @@
 ## Web Exploit
 
 ##### Question 1 - Comment Fever [Very Easy]
+
 ###### Description
 Marcus recently learned how to build websites. He knows that HTML comment cannot be seen on the page. So he decided to remind himself of his own password in the comment.
 
@@ -14,7 +15,6 @@ hsctf.wmcicompsci.ca/xxxxx
 ###### Goal
 Tell Marcus it’s not secure to do that by finding the password.
 Flag for this question is the password.
-
 
 ##### Question 2 - Stylish [Easy]
 Delete `style="display:none;"`
@@ -345,21 +345,17 @@ Answer:hsctf{monkey}
 
 
 ##### Question 1 -  [Super Easy]
+Description of Problem
 
+Text for problem.
 
-###### Description
-Marcus recently learned how to build websites. He knows that HTML comment cannot be seen on the page. So he decided to remind himself of his own password in the comment.
+hint
 
-His website is located at:
 ```
-hsctf.wmcicompsci.ca/xxxxx
+Actual Problem
 ```
 
-###### Goal
-Tell Marcus it’s not secure to do that by finding the password.
-Flag for this question is the password.
-
-
+Answer
 
 
 ##### Question 2 -  
