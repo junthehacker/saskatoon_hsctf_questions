@@ -342,9 +342,6 @@ Answer:hsctf{monkey}
 
 
 ## Cryptography
-
-
-##### Question 1 -  [Super Easy]
 Description of Problem
 
 Text for problem.
@@ -357,42 +354,114 @@ Actual Problem
 
 Answer
 
+##### Question 1 -  Julius Caesar [Super Easy]
+###### Discription
+###### Hint
+Caesar Cypher
+
+###### Encrypted Text
+```
+Ftue ue azq ar ftq euybxqef qzodkbfuaz yqftape. Rxms"OMQEMD OKBTQD"
+```
+###### Flag
+CAESAR CYPHER
+
+###### Decryption
+```
+Text:
+This is one of the simplest encryption methods. Flag"CAESAR CYPHER"
+
+Key: (Alphabetical Shift) -12
+```
 
 ##### Question 2 -  
+###### Discription
+###### Hint
 
-
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 ##### Question 3 -
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 ##### Question 4 - 
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 
 ##### Question 5 - 
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 ##### Question 6 - 
-
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 ##### Question 7 -
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 ##### Question 8 -
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 ##### Question 9 - 
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
 
 
 ##### Question 10 - 
-
+###### Discription
+###### Hint
+###### Encrypted Text
+```
+```
+###### Flag
+###### Decription
 
