@@ -342,20 +342,9 @@ Answer:hsctf{monkey}
 
 
 ## Cryptography
-Description of Problem
-
-Text for problem.
-
-hint
-
-```
-Actual Problem
-```
-
-Answer
 
 ##### Question 1 -  Julius Caesar [Super Easy]
-###### Discription
+###### Description
 ###### Hint
 Caesar Cypher
 
@@ -375,7 +364,7 @@ Key: (Alphabetical Shift) -12
 ```
 
 ##### Question 2 - Caesar is a Troll [Easy] 
-###### Discription
+###### Description
 ###### Hint
 Keep trying.
 
@@ -388,85 +377,197 @@ TROLLING YOU!!!
 
 ###### Decryption
 ```
+Text: 
+Nope >;). Not quite. Try again. Getting Warmer. Almost! So, so, close!!! The flag is"TROLLING YOU!!!"
 
+Key:(Alphabetical Shift)[Multi-Key]  -2 to 24 shifts
+```
 
-##### Question 3 -
-###### Discription
+##### Question 3 - Substitution [Medium]
+###### Description
 ###### Hint
+Shuffled Alphabet
+
 ###### Encrypted Text
 ```
+Prbt bt a towtpbpopbfh xvkrdu. Leag"TROLLED"
 ```
+
 ###### Flag
-###### Decription
+SHUFFLE
 
+###### Decryption
+```
+Text:
+This is a substitution cypher. Flag"SHUFFLE"
 
-##### Question 4 - 
+Key: (Alphabetical Shuffle) AWXYDLGRBIJECHFKQUTPOMNSVZ
+```
+
+##### Question 4 -  
 ###### Discription
 ###### Hint
+The flag is in the.
+
 ###### Encrypted Text
 ```
+Sqm nwbo ti tz sqm vme.
 ```
+
 ###### Flag
-###### Decription
+CYPHER
+
+###### Decryption
+```
+Text:
+The flag is in the key.
+
+Key: (Alphabetical Shuffle) BDJKMNOQTUVWXZFLAGISCYPHER
+```
 
 
-
-##### Question 5 - 
+##### Question 5 - Polyalphabetic
 ###### Discription
 ###### Hint
+Repeating key word shift.
+
 ###### Encrypted Text
 ```
+Lpuh tw s xaajedxtpmilqo tygjgbitsf. Nxpr"ZAOQCPVW"
 ```
 ###### Flag
-###### Decription
+VIGENERE
 
+###### Decryption
+```
+Text:
+This is a polyalphabetic encryption. Flag"VIGENERE"
+
+Key: (Repeating Keyword Shift) SIMPLE
+```
 
 ##### Question 6 - 
 ###### Discription
 ###### Hint
+Longer key word.
+
 ###### Encrypted Text
 ```
+Gvx lgfoqg elr yxy lzm ntexrf. Ylsy"TACRORM"
 ```
 ###### Flag
-###### Decription
+LONGKEY
 
-##### Question 7 -
+###### Decryption
+```
+Text:
+The longer the key the better. Flag"LONGKEY"
+
+Key: (Repeating Keyword Shift) NOTASSIMPLE
+```
+
+##### Question 7 - In the Key
 ###### Discription
 ###### Hint
+In the key.
+
 ###### Encrypted Text
 ```
+Yse leho aa ax xfj vee...
 ```
 ###### Flag
-###### Decription
+THISISKEY
 
+###### Decryption
+```
+Text:
+The flag is in the key...
 
-##### Question 8 -
+Key: (Repeating Keyword Shift) FLAGTHISISKEY
+```
+
+##### Question 8 - XOR [Hard]
 ###### Discription
 ###### Hint
+Hexadecimal Shifts
+
 ###### Encrypted Text
 ```
+Hex:
+3e1c180e1c0f5d3e040d15180f5d0a1409155d1f0409180e5c5d3b111c1a5f3f34292e5b3f2429382e5f
+
+Text:
+>\x1c\x18\x0e\x1c\x0f]>\x04\r\x15\x18\x0f]\n\x14\t\x15]\x1f\x04\t\x18\x0e\\];\x11\x1c\x1a_?4).[?$)8._
+
 ```
 ###### Flag
-###### Decription
+BITS&BYTES
 
+###### Decryption
+```
+Text:
+Caesar Cypher with bytes! Flag"BITS&BYTES"
+(Hex) 4361657361722043797068657220776974682062797465732120466c6167224249545326425954455322
 
-##### Question 9 - 
+Key: 7d or "}"
+```
+
+##### Question 9 -  
 ###### Discription
 ###### Hint
+The cypher is like the 'Polyalphabetic' problem but with bytes instead of letters.
+
 ###### Encrypted Text
 ```
+Hex:
+7a3f70497c48681127123b082a0824083c082d12680026056818271468072714260568083c40682724002f437a3f700f6a
+
+Text:
+z?pI|Hh\x11'\x12;\x08*\x08$\x08<\x08-\x12h\x00&\x05h\x18'\x14h\x07'\x14&\x05h\x08<@h'$\x00/Cz?p\x0fj
 ```
 ###### Flag
-###### Decription
+2^8n
+
+###### Decryption
+```
+Text:
+2^8(4) possibilities and you found it! Flag"2^8n"
+(Hex) 325e3828342920706f73736962696c697469657320616e6420796f7520666f756e642069742120466c616722325e386e22
+
+Key:(Hexadecimal Shift) (Hex)48614861 or "HaHa"
+```
 
 
-
-##### Question 10 - 
-###### Discription
+##### Question 10 - Breakable 
+###### Description
 ###### Hint
+Everything we covered.
+
 ###### Encrypted Text
 ```
+Hex:
+685f5e0a4b0a5d435e4942060a6f5c4f060a5d4b590a4643595e4f4443444d0468490a5259440a5958444b475e4f44580a5259440a4b434e4845415a0a4048420a59440a4b4f45440a42465a0a5e59490a4e520a5c430a4440480a5c5a5c595b47444c0a474f040a73485e0a595f485e4d464546585a590a5a4b5e484343464e5a0a44494e0a594b585d464e53040a6844404708796c0d6c0a6272640a73696569796268646608
+
+Text:
+h_^\nK\n]C^IB\x06\no\\O\x06\n]KY\nFCY^ODCDM\x04hI\nRYD\nYXDKG^ODX\nRYD\nKCNHEAZ\n@HB\nYD\nKOED\nBFZ\n^YI\nNR\n\\C\nD@H\n\\Z\\Y[GDL\nGO\x04\nsH^\nY_H^MFEFXZY\nZK^HCCFNZ\nDIN\nYKX]FNS\x04\nhD@G\x08yl\rl\nbrd\nsieiybhdf\x08
 ```
 ###### Flag
-###### Decription
+IT'S ALL BREAKABLE
+
+###### Decryption
+```
+Text:
+Once there was a man and the man wanted to send someone a message. 
+But a witch, Eve, was listening.
+So the encrypted the message and he made the key so he can remember it.
+Eve adventually decrypted the message.
+Flag"IT'S ALL BREAKABLE"
+
+Key: [Multi-Key]
+(Hexadecimal Key Shift) 'Jack'
+(Hexadecimal Shift) '*'
+(Key Word Shift) Joel
+(Alphabetic Shuffle) HJKLPQSTUBFGOVZXYNICANDREW
+(Alphabetic Shift) 16
+
 
