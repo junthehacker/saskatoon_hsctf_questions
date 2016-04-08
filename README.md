@@ -374,15 +374,20 @@ This is one of the simplest encryption methods. Flag"CAESAR CYPHER"
 Key: (Alphabetical Shift) -12
 ```
 
-##### Question 2 -  
+##### Question 2 - Caesar is a Troll [Easy] 
 ###### Discription
 ###### Hint
+Keep trying.
 
 ###### Encrypted Text
 ```
+Vwxm >;). Qrw txlwh. Ayf hnhpu. Trggvat jnezre. Pabdhi! Nj, nj xgjnz!!! Qeb cixd fp "VTQNNKPI AQW!!!"
 ```
 ###### Flag
-###### Decription
+TROLLING YOU!!!
+
+###### Decryption
+```
 
 
 ##### Question 3 -
