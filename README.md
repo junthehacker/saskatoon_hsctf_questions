@@ -300,25 +300,25 @@ Answer:hsctf{monkey}
 
 ##### Question 1 -  [Super Easy]
 
-
+hsctf{BLUE}
 
 ##### Question 2 -  
 
-
+hsctf{pikapika}
 
 
 ##### Question 3 -
 
-
+hsctf{surprise}
 
 ##### Question 4 - 
 
-
+hsctf{vinci}
 
 
 ##### Question 5 - 
 
-
+hsctf{cat}
 
 ##### Question 6 - 
 
