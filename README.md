@@ -17,44 +17,84 @@ Tell Marcus it’s not secure to do that by finding the password.
 Flag for this question is the password.
 
 ##### Question 2 - Stylish [Easy]
-Delete `style="display:none;"`
-```html
-<h2>Classifications</h2>
-    <p style="display:none;">
-      Several subgroups of the computer underground with different attitudes use different terms to demarcate themselves from each other, or try 
+
+###### Description
+Marcus learned his lesson on HTML comments.
+He keeps studying web technologies, now he learns how to use CSS. And he thought he could securely hide the password from visitors this time around.
+
+His website is located at:
+```
+hsctf.wmcicompsci.ca/xxxxx
 ```
 
-##### Question 3 - Recon [Easy]
-Simple question, flag is hidden in `<script>` tags
-```html
-<script type="text/javascript">
-  var code = "duajbx928dlxdlh1";
-  function checkCoupon(){
-    if($("#coupon-field").val() == code){
-      alert("your flag is hsctf{question3}");
-    } else {
-      alert("oops, try again");
-    }
-  }
-</script>
+###### Goal
+Tell Marcus it’s not secure to do that by finding the password.
+Flag for this question is the password.
+
+##### Question 3 - Choose Your Side [Easy]
+
+###### Description
+Marcus did not give up.
+Now he knows how to use JavaScript. You know what happened, right?
+
+His website is located at:
+```
+hsctf.wmcicompsci.ca/xxxxx
 ```
 
-##### Question 4 - Base64 & Console [Easy]
-Same as question 3, but flag is encrypted using base64. Use console to solve the question.
+###### Goal
+Tell Marcus it’s not secure to do that by finding the password.
+Flag for this question is the password.
+
+##### Question 4 - QmFzZTY0 [Easy]
+
+###### Description
+Marcus cannot believe his website got hacked again. So he hired an experienced web developer. The web developer told Marcus to encrypt his code.
+However, you know this will not make much of the difference.
+
+His website is located at:
 ```
-> atob("eW91ciBmbGFnIGlzIGhzY3Rme3F1ZXN0aW9uNH0=");
-< "your flag is hsctf{question4}" = $1
+hsctf.wmcicompsci.ca/xxxxx
 ```
 
-##### Question 5 - SQL Injection [Medium]
-SQL Injection. Type `' OR '1'='1` for the password.
+###### Goal
+Tell Marcus it’s not secure to do that by finding the password.
+Flag for this question is the password.
 
-It will result in a query like this `SELECT * FROM user WHERE username='xxx' AND password='' OR '1' = '1'`
+##### Question 5 - Pizza Injection [Medium]
 
-##### Question 6 - SQL Injection 2 [Medium]
-Get the flag from database
+###### Description
+A pizza company has a promotion going on. If you bought the lucky pizza which contains a promotion code in the box. You will receive free pizza for the rest of your life!<br>
+However, the website used for this company is developed by a very bad developer, because many people that has used this website reports that when they enter xxx’xxx in the promotion code field, they receive a weird error:
+```
+error near query ‘* FROM promotion_code WHERE ‘’ Please check….
+```
+You know something is going on with this website. And you want to receive free pizza for the rest of your life.
 
-##### Question 7 - XSS (Cross-Site Scripting) [Medium]
+The company’s website is located at:
+```
+hsctf.wmcicompsci.ca/pizza
+```
+
+###### Goal
+Hack the website and receive free pizza for the rest of your life!<br>
+The flag will be revealed after you successfully enter the promotion code.
+
+##### Question 6 - DROP ‘em All [Medium]
+
+###### Description
+You posted an article on a website called [Need a name]. There are a lot of hate comments. And the blogging system does not allow you to delete the comment.<br>
+However, you know there are going to be security exploits that allows you to delete all the comments.
+
+Your article is located at:
+```
+hsctf.wmcicompsci.ca/xxxxx
+```
+
+###### Goal
+Delete all hate comments.
+
+##### Question 7 - JSON [Medium]
 Self re-tweet script
 
 ##### Question 8 - Badly stored password (SQL Injection & Brute force) [Hard]
