@@ -371,8 +371,9 @@ hsctf{overflow}
 
 
 
-##### Question 8 - 
+##### Question 8 - Flat chess fights are fun{}. The flag is a word starting with you. {Hard}
 
+hsctf{unsafer}
 
 
 ##### Question 9 - PikaCHUUUUUUUUUUUU [Insane]
