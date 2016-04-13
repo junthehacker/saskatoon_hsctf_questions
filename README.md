@@ -338,47 +338,51 @@ Answer:hsctf{monkey}
 
 ## Forensics/Recon
 
-##### Question 1 -  [Super Easy]
+##### Question 1 - Someone's sent me an image of a blue rectangle, but I think there's more to it than that... [Super Easy]
 
 hsctf{BLUE}
 
-##### Question 2 -  
+##### Question 2 - Another image, but it just looks like a surprised face. There's might be something else, though... [Super Easy]
+
+hsctf{surprise}
+
+##### Question 3 - The Mona Lisa is an amazing piece of art. Too bad it turned into an amalgamation of symbols. [Easy]
+
+hsctf{vinci}
+
+##### Question 4 - We've intercepted one of the messages from the Illuminati to Anonymous, but it's pretty garbled. Can you make any sense of it? [Medium]
+
+hsctf{reversal}
+
+
+##### Question 5 - Another message, but this time it's from Anonymous to the Illuminati. It's just an audio clip of that trombone vine...why would they want that? [Medium]
+
+hsctf{trombonelord}
+
+
+##### Question 6 - It looks like one of our team is sending some info to a third party. Thankfully, we intercepted the letter he sent, and we figured out that the leaker was some Andrew Kim -- but he's scarpered, and we've got no idea where he is. Help us figure out what data he leaked. [Hard]
+
+hsctf{youfoundme}
+
+
+##### Question 7 - https://sites.google.com/site/mwaaahahawhatistheflag/ [Hard]
+
+hsctf{overflow}
+
+
+
+##### Question 8 - 
+
+
+
+##### Question 9 - PikaCHUUUUUUUUUUUU [Insane]
 
 hsctf{pikapika}
 
 
-##### Question 3 -
-
-hsctf{surprise}
-
-##### Question 4 - 
-
-hsctf{vinci}
-
-
-##### Question 5 - 
+##### Question 10 - Is it a tree? The flag is the animal. [Insane]
 
 hsctf{cat}
-
-##### Question 6 - 
-
-
-
-##### Question 7 -
-
-
-
-##### Question 8 -
-
-
-
-##### Question 9 - 
-
-
-
-
-##### Question 10 - 
-
 
 
 ## Cryptography
