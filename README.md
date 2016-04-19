@@ -338,34 +338,54 @@ Answer:hsctf{monkey}
 
 ## Forensics/Recon
 
-##### Question 1 - Someone's sent me an image of a blue rectangle, but I think there's more to it than that... [Super Easy]
+##### Question 1 - The pretty blue is sooooo pretty...
+
+Someone's sent me an image of a blue rectangle, but I think there's more to it than that... [Super Easy]
+
+Hint: Tilt the screen a little.
 
 hsctf{BLUE}
 
-##### Question 2 - Another image, but it just looks like a surprised face. There's might be something else, though... [Super Easy]
+##### Question 2 - Birthday surprise
+
+Another image, but it just looks like a surprised face. There's might be something else, though... [Super Easy]
+
+Hint: Let's look in the image text.
 
 hsctf{surprise}
 
 ##### Question 3 - The Mona Lisa is an amazing piece of art. Too bad it turned into an amalgamation of symbols. [Easy]
 
+Hint: There are NO letters in the image? Hmm...look a little more carefully.
+
 hsctf{vinci}
 
 ##### Question 4 - We've intercepted one of the messages from the Illuminati to Anonymous, but it's pretty garbled. Can you make any sense of it? [Medium]
+
+Hint: I think I heard alf in there. alf backwards in fla...flag?
 
 hsctf{reversal}
 
 
 ##### Question 5 - Another message, but this time it's from Anonymous to the Illuminati. It's just an audio clip of that trombone vine...why would they want that? [Medium]
 
+Hint: This might only be difficult because I told you it's a medium level problem. What if it's actually easy?
+
 hsctf{trombonelord}
 
 
 ##### Question 6 - It looks like one of our team is sending some info to a third party. Thankfully, we intercepted the letter he sent, and we figured out that the leaker was some Andrew Kim -- but he's scarpered, and we've got no idea where he is. Help us figure out what data he leaked. [Hard]
 
+Hint: I tried selecting all the text in the file, and it looks like there's something behind that stupid passwords meme.
+
 hsctf{youfoundme}
 
 
 ##### Question 7 - https://sites.google.com/site/mwaaahahawhatistheflag/ [Hard]
+
+Hint 1: Select all the text.
+Hint 2: Which post?
+Hint 3: Look carefully.
 
 hsctf{overflow}
 
@@ -373,15 +393,23 @@ hsctf{overflow}
 
 ##### Question 8 - Flat chess fights are fun{}. The flag is a word starting with you. {Hard}
 
+Hint: Flat or Flag?
+
 hsctf{unsafer}
 
 
 ##### Question 9 - PikaCHUUUUUUUUUUUU [Insane]
 
+Hint: Mr. Kim, Mr. Kim! What's steganography?
+
 hsctf{pikapika}
 
 
 ##### Question 10 - Is it a tree? The flag is the animal. [Insane]
+
+How many bits should I remove?
+
+Hint: Mr. Kim, Mr. Kim! You just remove the 2 least significant (AUDIO TRANSMISSION CUT OFF, PAINFUL SCREAMS FOLLOW.)
 
 hsctf{cat}
 
