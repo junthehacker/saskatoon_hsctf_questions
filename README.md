@@ -338,43 +338,51 @@ Answer:hsctf{monkey}
 
 ## Forensics/Recon
 
-##### Question 1 - The pretty blue is sooooo pretty...
+##### Question 1 - The pretty blue is sooooo pretty...[Super Easy]
 
-Someone's sent me an image of a blue rectangle, but I think there's more to it than that... [Super Easy]
+Someone's sent me an image of a blue rectangle, but I think there's more to it than that... 
 
 Hint: Tilt the screen a little.
 
 hsctf{BLUE}
 
-##### Question 2 - Birthday surprise
+##### Question 2 - Birthday surprise [Super Easy]
 
-Another image, but it just looks like a surprised face. There's might be something else, though... [Super Easy]
+Another image, but it just looks like a surprised face. There's might be something else, though... 
 
 Hint: Let's look in the image text.
 
 hsctf{surprise}
 
-##### Question 3 - The Mona Lisa is an amazing piece of art. Too bad it turned into an amalgamation of symbols. [Easy]
+##### Question 3 - Leo's masterpiece [Easy]
+
+The Mona Lisa is an amazing piece of art. Too bad it turned into an amalgamation of symbols. 
 
 Hint: There are NO letters in the image? Hmm...look a little more carefully.
 
 hsctf{vinci}
 
-##### Question 4 - We've intercepted one of the messages from the Illuminati to Anonymous, but it's pretty garbled. Can you make any sense of it? [Medium]
+##### Question 4 - Garbled stuff [Medium]
+
+We've intercepted one of the messages from the Illuminati to Anonymous, but it's pretty garbled. Can you make any sense of it? 
 
 Hint: I think I heard alf in there. alf backwards in fla...flag?
 
 hsctf{reversal}
 
 
-##### Question 5 - Another message, but this time it's from Anonymous to the Illuminati. It's just an audio clip of that trombone vine...why would they want that? [Medium]
+##### Question 5 - THIS VINE IS AWESOME [Medium] 
+
+Another message, but this time it's from Anonymous to the Illuminati. It's just an audio clip of that trombone vine...why would they want that? 
 
 Hint: This might only be difficult because I told you it's a medium level problem. What if it's actually easy?
 
 hsctf{trombonelord}
 
 
-##### Question 6 - It looks like one of our team is sending some info to a third party. Thankfully, we intercepted the letter he sent, and we figured out that the leaker was some Andrew Kim -- but he's scarpered, and we've got no idea where he is. Help us figure out what data he leaked. [Hard]
+##### Question 6 - lol this passwords meme [Hard]
+
+It looks like one of our team is sending some info to a third party. Thankfully, we intercepted the letter he sent, and we figured out that the leaker was some Andrew Kim -- but he's scarpered, and we've got no idea where he is. Help us figure out what data he leaked. 
 
 Hint: I tried selecting all the text in the file, and it looks like there's something behind that stupid passwords meme.
 
@@ -382,6 +390,12 @@ hsctf{youfoundme}
 
 
 ##### Question 7 - https://sites.google.com/site/mwaaahahawhatistheflag/ [Hard]
+
+I hid my flag on a series of sites. This is the first of the challenges. 
+See the title for the website. 
+I wish you the best of luck. 
+
+- Andrew Kim
 
 Hint 1: Select all the text.
 Hint 2: Which post?
@@ -391,7 +405,11 @@ hsctf{overflow}
 
 
 
-##### Question 8 - Flat chess fights are fun{}. The flag is a word starting with you. {Hard}
+##### Question 8 - LOL WUT {Hard}
+
+"Flat chess fights are fun{}. The flag is a word starting with you."
+  - Andrew Kim
+
 
 Hint: Flat or Flag?
 
@@ -407,7 +425,7 @@ hsctf{pikapika}
 
 ##### Question 10 - Is it a tree? The flag is the animal. [Insane]
 
-How many bits should I remove?
+I require assistance -- tell me how many bits to remove in order to get the image we need.
 
 Hint: Mr. Kim, Mr. Kim! You just remove the 2 least significant (AUDIO TRANSMISSION CUT OFF, PAINFUL SCREAMS FOLLOW.)
 
