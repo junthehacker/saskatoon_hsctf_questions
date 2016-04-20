@@ -393,12 +393,12 @@ hsctf{youfoundme}
 
 I hid my flag on a series of sites. This is the first of the challenges. 
 See the title for the website. 
-I wish you the best of luck. 
+I wish you the best of luck.
 
-- Andrew Kim
+-Andrew Kim
 
-Hint 1: Select all the text.
-Hint 2: Which post?
+Hint 1: There's more text than what you see. Try zooming out.
+Hint 2: Maybe we should look for Saskatoon HSCTF-related posts...
 Hint 3: Look carefully.
 
 hsctf{overflow}
@@ -408,7 +408,7 @@ hsctf{overflow}
 ##### Question 8 - LOL WUT {Hard}
 
 "Flat chess fights are fun{}. The flag is a word starting with you."
-  - Andrew Kim
+  -Andrew Kim, speaking about the 2016 Saskatoon HSCTF
 
 
 Hint: Flat or Flag?
